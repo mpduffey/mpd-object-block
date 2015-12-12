@@ -1,22 +1,24 @@
 {
-	"name": "mpd-object-block",
-	"main": "mpd-object-block.js",
-	"version": "0.0.0",
-	"homepage": "https://github.com/mpduffey/master",
-	"authors": [
-		"mpduffey <mpduffey@gmail.com>"
-	],
-	"dependencies": {},
-	"description": "Object Blocks for the Master App",
-	"keywords": [
-	],
-	"license": "MIT",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"assets/vendor",
-		"test",
-		"tests"
-	]
+  "name": "mpd-object-block",
+  "main": "mpd-object-block.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mpduffey/master",
+  "authors": [
+    "mpduffey <mpduffey@gmail.com>"
+  ],
+  "dependencies": {
+    "angular-ui-sortable": "~0.13.4",
+    "ngSlimscroll": "*"
+  },
+  "description": "Object Blocks for the Master App",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ]
 }
